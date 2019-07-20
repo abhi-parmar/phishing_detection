@@ -1,0 +1,3 @@
+[console_scripts]
+phishing_detection = phishing_detection.cli:main
+
