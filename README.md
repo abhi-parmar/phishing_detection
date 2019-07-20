@@ -1,20 +1,8 @@
-# phishing_detection
+
 
 ======================================
 Phishing Detection Using Random Forest
 ======================================
-
-
-.. image:: https://img.shields.io/pypi/v/phishing_detection.svg
-        :target: https://pypi.python.org/pypi/phishing_detection
-
-.. image:: https://img.shields.io/travis/abhi-parmar/phishing_detection.svg
-        :target: https://travis-ci.org/abhi-parmar/phishing_detection
-
-.. image:: https://readthedocs.org/projects/phishing-detection/badge/?version=latest
-        :target: https://phishing-detection.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 
 
 
