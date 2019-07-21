@@ -26,6 +26,8 @@ from dateutil.parser import parse as date_parse
 from pysafebrowsing import SafeBrowsing
 
 
+BASE_DIR = os.path.dirname(os.path.realpath((__file__)))
+
 def dataext(url):
     data =generate_data_set(url)
     ndata = np.asarray(data)
@@ -33,12 +35,14 @@ def dataext(url):
 
 
 def detect(url):
+    global BASE_DIR
     try:
         print('extracting features takes a while.')
         if not(url.startswith('http://') or url.startswith('https://')):
             url = 'http://' + url
         DATA_PATH = pkg_resources.resource_filename('phishing_detection','data')
-        DB_FILE = pkg_resources.resource_filename('phishing_detection', 'data/model.sav')
+        
+        DB_FILE = pkg_resources.resource_filename('phishing_detection', os.path.join(BASE_DIR, 'data', 'model.sav'))
         clasif = pickle.load(open(DB_FILE, 'rb'))
         data = dataext(url).reshape(1, -1)
         out = clasif.predict(data)
