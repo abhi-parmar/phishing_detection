@@ -53,7 +53,7 @@ setup(
     url='https://github.com/abhi-parmar/phishing_detection',
     version='0.1',
     install_requires=[
-        'pysafebrowsing'
+        'pysafebrowsing','numpy','bs4','google','python-whois'
     ],
     zip_safe=False,
 )
