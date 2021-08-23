@@ -41,7 +41,7 @@ jupyter==1.0.0
 jupyter-client==5.2.4
 jupyter-console==6.0.0
 jupyter-core==4.5.0
-jupyterlab==0.35.6
+jupyterlab==1.2.21
 jupyterlab-github==0.7.0
 jupyterlab-server==0.2.0
 keyring==19.0.2
