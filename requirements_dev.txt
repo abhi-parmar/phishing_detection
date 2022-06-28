@@ -1,5 +1,5 @@
 alabaster==0.7.12
-arrow==0.14.2
+arrow==0.15.1
 asn1crypto==0.24.0
 astroid==2.2.5
 attrs==19.1.0
