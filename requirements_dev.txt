@@ -35,7 +35,7 @@ jedi==0.14.0
 jeepney==0.4
 Jinja2==2.10.1
 jinja2-time==0.2.0
-joblib==0.13.2
+joblib==1.2.0
 jsonschema==3.0.1
 jupyter==1.0.0
 jupyter-client==5.2.4
